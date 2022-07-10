@@ -1,0 +1,141 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Noto Serif SC', serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.header {
+  height: 100vh;
+  background-image: url(images/3.webp);
+  background-size: cover;
+  background-position: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.header nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 1.5% 8%;
+}
+
+@media (max-width: 768px) {
+  .header nav {
+    margin: auto;
+  }
+}
+
+@media (min-width: 576px) {
+  .header nav {
+    margin: 0%;
+  }
+}
+
+.header .text {
+  text-align: center;
+  color: antiquewhite;
+  margin: auto;
+}
+
+.header .text h1 {
+  font-size: clamp(2rem, 5vw, 5rem);
+  color: #133757;
+}
+
+.header .text h1 .pulser {
+  display: inline-block;
+  color: #6f0707;
+  border-radius: 50%;
+  -webkit-animation: pulse 3s infinite;
+          animation: pulse 3s infinite;
+}
+
+@-webkit-keyframes pulse {
+  0% {
+    -webkit-box-shadow: 0 0 0 0px rgba(53, 2, 2, 0.678);
+            box-shadow: 0 0 0 0px rgba(53, 2, 2, 0.678);
+  }
+  100% {
+    -webkit-box-shadow: 0 0 20px 20px rgba(44, 5, 5, 0.307);
+            box-shadow: 0 0 20px 20px rgba(44, 5, 5, 0.307);
+  }
+}
+
+@keyframes pulse {
+  0% {
+    -webkit-box-shadow: 0 0 0 0px rgba(53, 2, 2, 0.678);
+            box-shadow: 0 0 0 0px rgba(53, 2, 2, 0.678);
+  }
+  100% {
+    -webkit-box-shadow: 0 0 20px 20px rgba(44, 5, 5, 0.307);
+            box-shadow: 0 0 20px 20px rgba(44, 5, 5, 0.307);
+  }
+}
+
+.header .text h3 {
+  padding-left: 2%;
+  color: lightcoral;
+}
+
+.header #navLinks {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.header #navLinks a {
+  text-decoration: none;
+  color: #ae5a76;
+  font-size: 1.3rem;
+  padding: .5rem .75rem;
+}
+
+.header #navLinks a::after {
+  display: block;
+  content: '';
+  height: 2px;
+  width: 0;
+  background-color: #15155d7b;
+  margin: auto;
+  -webkit-transition: .5s;
+  transition: .5s;
+}
+
+.header #navLinks a:hover::after {
+  width: 85%;
+}
+
+.bjimg {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  min-width: 1000px;
+  z-index: -10;
+  zoom: 1;
+  background-color: #fff;
+  background-image: url(images/3.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
+  -webkit-background-size: cover;
+  -o-background-size: cover;
+  background-position: center 0;
+}
+/*# sourceMappingURL=main.css.map */

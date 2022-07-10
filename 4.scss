@@ -1,0 +1,81 @@
+* {
+    margin: 0; // 取消浏览器默认的边距
+    padding: 0;
+    font-family: 'Noto Serif SC', serif; // 自定义字体
+  }
+  
+  html {
+    background-color:rgba(255, 255, 255, 0.918);
+    scroll-behavior: smooth; // 平滑滚动
+  }
+  .part1{
+   
+    overflow: hidden;
+    display: flex;
+    justify-content: space-around;
+    height: 100vh;
+    background-image:url(images/rsj-1.jpg);
+
+    background-size: cover;
+  
+    background-position: center;
+    a {
+        position: fixed;
+        background-color: rgba(61, 20, 3, 0.882);
+       padding: 0%;
+        right: 3%;
+        top: 2%;
+        color:rgba(208, 208, 215, 0.922)
+        
+        
+        
+      }
+    h2{
+        color: rgba(207, 201, 192, 0.964);
+        position: absolute;
+        background-color: rgba(40, 4, 10, 0.682);
+        padding: 0 0 0 0;
+        top: 4%;
+        
+        width: 50vw;
+    }
+    .part1-1
+    {
+        position: absolute;
+        margin-top: 10%;
+        margin-left: 5%;
+        margin-right: 5%;
+        width: 100%;
+        
+    
+    text-align: center;
+        
+
+    }
+  }
+  .part2{
+   
+    overflow: hidden;
+    display: flex;
+    justify-content: space-around;
+    height: 100vh;
+    background-image:url(images/ysj-2.jpeg);
+
+    background-size: cover;
+  
+    background-position: center;
+
+    .part2-1
+    {
+        position: absolute;
+        margin-top: 5%;
+        margin-left: 10%;
+        margin-right: 60%;
+        width: 100%;
+        
+    
+    text-align: center;
+        
+
+    }
+  }

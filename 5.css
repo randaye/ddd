@@ -1,0 +1,86 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Noto Serif SC', serif;
+}
+
+html {
+  background-color: rgba(255, 255, 255, 0.918);
+  scroll-behavior: smooth;
+}
+
+.part1 {
+  overflow: hidden;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  height: 100vh;
+  background-image: url(images/51.webp);
+  background-size: cover;
+  background-position: center;
+}
+
+.part1 .part1-1 {
+  position: absolute;
+  margin-top: 7%;
+  margin-left: 10%;
+  width: 100%;
+}
+
+.part1 .part1-1 h2 {
+  width: 80%;
+  position: absolute;
+  background-color: rgba(40, 4, 10, 0.682);
+  color: rgba(153, 127, 11, 0.763);
+  padding-left: 8%;
+}
+
+.part1 .part1-2 {
+  position: absolute;
+  margin-top: 22%;
+  margin-left: 10%;
+  width: 100%;
+}
+
+.part1 .part1-2 h2 {
+  width: 80%;
+  position: absolute;
+  background-color: rgba(40, 4, 10, 0.682);
+  color: rgba(153, 127, 11, 0.763);
+  padding-left: 8%;
+}
+
+.part1 .part1-3 {
+  position: absolute;
+  margin-top: 36%;
+  margin-left: 10%;
+  width: 100%;
+}
+
+.part1 .part1-3 h2 {
+  width: 80%;
+  position: absolute;
+  background-color: rgba(40, 4, 10, 0.682);
+  color: rgba(153, 127, 11, 0.763);
+  padding-left: 8%;
+}
+
+.part1 h1 {
+  color: goldenrod;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  top: 7%;
+}
+
+.part1 a {
+  position: fixed;
+  background-color: rgba(61, 20, 3, 0.882);
+  padding: 0%;
+  right: 3%;
+  top: 2%;
+  color: rgba(208, 208, 215, 0.922);
+}
+/*# sourceMappingURL=5.css.map */
